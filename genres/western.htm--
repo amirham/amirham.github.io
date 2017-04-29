@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <title>Western</title>
+    <link href="../emdb.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div class="container">
+        <div>
+            <a href="../index.htm" class="button button-orange">EMDB &gt;</a>
+            <a href="../index.htm#genres" class="button button-orange">Genres &gt;</a>
+            <a href="western.htm" class="button button-orange">Western</a>
+        </div>
+        <img class="bar" src="../gif/bar_orange_black.jpg" alt="bar orange to black" />
+        <div class="header-orange">Western</div>
+        <ul class="link-gray movie-list">
+            
+        <li class="thumbnail">
+            <a href="../movies/315.htm"><img border="0" src="../covers/000323.jpg" height="135" align="middle"></a>
+            <br>
+            <div class="thumbnail-text">
+                <a href="../movies/315.htm">Back to the Future Part III
+        &nbsp;&nbsp;(1990)
+        </a>
+            </div>
+        </li>
+        
+
+        <li class="thumbnail">
+            <a href="../movies/416.htm"><img border="0" src="../covers/000425.jpg" height="135" align="middle"></a>
+            <br>
+            <div class="thumbnail-text">
+                <a href="../movies/416.htm">Dances with Wolves
+        &nbsp;&nbsp;(1990)
+        </a>
+            </div>
+        </li>
+        
+
+        <li class="thumbnail">
+            <a href="../movies/61.htm"><img border="0" src="../covers/000065.jpg" height="135" align="middle"></a>
+            <br>
+            <div class="thumbnail-text">
+                <a href="../movies/61.htm">Django Unchained
+        &nbsp;&nbsp;(2012)
+        </a>
+            </div>
+        </li>
+        
+
+        <li class="thumbnail">
+            <a href="../movies/370.htm"><img border="0" src="../covers/000378.jpg" height="135" align="middle"></a>
+            <br>
+            <div class="thumbnail-text">
+                <a href="../movies/370.htm">A Fistful of Dollars
+        &nbsp;&nbsp;(1964)
+        </a>
+            </div>
+        </li>
+        
+
+        <li class="thumbnail">
+            <a href="../movies/371.htm"><img border="0" src="../covers/000379.jpg" height="135" align="middle"></a>
+            <br>
+            <div class="thumbnail-text">
+                <a href="../movies/371.htm">For a Few Dollars More
+        &nbsp;&nbsp;(1965)
+        </a>
+            </div>
+        </li>
+        
+
+        <li class="thumbnail">
+            <a href="../movies/148.htm"><img border="0" src="../covers/000152.jpg" height="135" align="middle"></a>
+            <br>
+            <div class="thumbnail-text">
+                <a href="../movies/148.htm">The Good, the Bad and the Ugly
+        &nbsp;&nbsp;(1966)
+        </a>
+            </div>
+        </li>
+        
+
+        <li class="thumbnail">
+            <a href="../movies/397.htm"><img border="0" src="../covers/000406.jpg" height="135" align="middle"></a>
+            <br>
+            <div class="thumbnail-text">
+                <a href="../movies/397.htm">Guns of the Magnificent Seven
+        &nbsp;&nbsp;(1969)
+        </a>
+            </div>
+        </li>
+        
+
+        <li class="thumbnail">
+            <a href="../movies/395.htm"><img border="0" src="../covers/000404.jpg" height="135" align="middle"></a>
+            <br>
+            <div class="thumbnail-text">
+                <a href="../movies/395.htm">The Magnificent Seven
+        &nbsp;&nbsp;(1960)
+        </a>
+            </div>
+        </li>
+        
+
+        <li class="thumbnail">
+            <a href="../movies/398.htm"><img border="0" src="../covers/000407.jpg" height="135" align="middle"></a>
+            <br>
+            <div class="thumbnail-text">
+                <a href="../movies/398.htm">The Magnificent Seven Ride!
+        &nbsp;&nbsp;(1972)
+        </a>
+            </div>
+        </li>
+        
+
+        <li class="thumbnail">
+            <a href="../movies/287.htm"><img border="0" src="../covers/000295.jpg" height="135" align="middle"></a>
+            <br>
+            <div class="thumbnail-text">
+                <a href="../movies/287.htm">My Name Is Nobody
+        &nbsp;&nbsp;(1973)
+        </a>
+            </div>
+        </li>
+        
+
+        <li class="thumbnail">
+            <a href="../movies/396.htm"><img border="0" src="../covers/000405.jpg" height="135" align="middle"></a>
+            <br>
+            <div class="thumbnail-text">
+                <a href="../movies/396.htm">Return of the Magnificent Seven
+        &nbsp;&nbsp;(1966)
+        </a>
+            </div>
+        </li>
+        
+
+        <li class="thumbnail">
+            <a href="../movies/331.htm"><img border="0" src="../covers/000339.jpg" height="135" align="middle"></a>
+            <br>
+            <div class="thumbnail-text">
+                <a href="../movies/331.htm">The Searchers
+        &nbsp;&nbsp;(1956)
+        </a>
+            </div>
+        </li>
+        
+
+        <li class="thumbnail">
+            <a href="../movies/437.htm"><img border="0" src="../covers/000446.jpg" height="135" align="middle"></a>
+            <br>
+            <div class="thumbnail-text">
+                <a href="../movies/437.htm">Wild Wild West
+        &nbsp;&nbsp;(1999)
+        </a>
+            </div>
+        </li>
+        
+
+        </ul>
+    </div>
+    <div class="footer">
+        <p>Created with EMDB V2.73 (C) 2005-2017. No Rights Reserved ;-)</p>
+    </div>
+</body>
+</html>

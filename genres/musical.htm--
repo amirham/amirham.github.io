@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <title>Musical</title>
+    <link href="../emdb.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div class="container">
+        <div>
+            <a href="../index.htm" class="button button-orange">EMDB &gt;</a>
+            <a href="../index.htm#genres" class="button button-orange">Genres &gt;</a>
+            <a href="musical.htm" class="button button-orange">Musical</a>
+        </div>
+        <img class="bar" src="../gif/bar_orange_black.jpg" alt="bar orange to black" />
+        <div class="header-orange">Musical</div>
+        <ul class="link-gray movie-list">
+            
+        <li class="thumbnail">
+            <a href="../movies/198.htm"><img border="0" src="../covers/000204.jpg" height="135" align="middle"></a>
+            <br>
+            <div class="thumbnail-text">
+                <a href="../movies/198.htm">Aladdin
+        &nbsp;&nbsp;(1992)
+        </a>
+            </div>
+        </li>
+        
+
+        <li class="thumbnail">
+            <a href="../movies/201.htm"><img border="0" src="../covers/000207.jpg" height="135" align="middle"></a>
+            <br>
+            <div class="thumbnail-text">
+                <a href="../movies/201.htm">Beauty and the Beast
+        &nbsp;&nbsp;(1991)
+        </a>
+            </div>
+        </li>
+        
+
+        <li class="thumbnail">
+            <a href="../movies/263.htm"><img border="0" src="../covers/000271.jpg" height="135" align="middle"></a>
+            <br>
+            <div class="thumbnail-text">
+                <a href="../movies/263.htm">Corpse Bride
+        &nbsp;&nbsp;(2005)
+        </a>
+            </div>
+        </li>
+        
+
+        <li class="thumbnail">
+            <a href="../movies/205.htm"><img border="0" src="../covers/000211.jpg" height="135" align="middle"></a>
+            <br>
+            <div class="thumbnail-text">
+                <a href="../movies/205.htm">Frozen
+        &nbsp;&nbsp;(2013)
+        </a>
+            </div>
+        </li>
+        
+
+        <li class="thumbnail">
+            <a href="../movies/196.htm"><img border="0" src="../covers/000202.jpg" height="135" align="middle"></a>
+            <br>
+            <div class="thumbnail-text">
+                <a href="../movies/196.htm">Hercules
+        &nbsp;&nbsp;(1997)
+        </a>
+            </div>
+        </li>
+        
+
+        <li class="thumbnail">
+            <a href="../movies/199.htm"><img border="0" src="../covers/000205.jpg" height="135" align="middle"></a>
+            <br>
+            <div class="thumbnail-text">
+                <a href="../movies/199.htm">The Hunchback of Notre Dame
+        &nbsp;&nbsp;(1996)
+        </a>
+            </div>
+        </li>
+        
+
+        <li class="thumbnail">
+            <a href="../movies/116.htm"><img border="0" src="../covers/000120.jpg" height="135" align="middle"></a>
+            <br>
+            <div class="thumbnail-text">
+                <a href="../movies/116.htm">Les Miserables
+        &nbsp;&nbsp;(2012)
+        </a>
+            </div>
+        </li>
+        
+
+        <li class="thumbnail">
+            <a href="../movies/265.htm"><img border="0" src="../covers/000273.jpg" height="135" align="middle"></a>
+            <br>
+            <div class="thumbnail-text">
+                <a href="../movies/265.htm">The Lion King
+        &nbsp;&nbsp;(1994)
+        </a>
+            </div>
+        </li>
+        
+
+        <li class="thumbnail">
+            <a href="../movies/209.htm"><img border="0" src="../covers/000216.jpg" height="135" align="middle"></a>
+            <br>
+            <div class="thumbnail-text">
+                <a href="../movies/209.htm">The Lion King 2: Simba's Pride
+        &nbsp;&nbsp;(1998)
+        </a>
+            </div>
+        </li>
+        
+
+        <li class="thumbnail">
+            <a href="../movies/200.htm"><img border="0" src="../covers/000206.jpg" height="135" align="middle"></a>
+            <br>
+            <div class="thumbnail-text">
+                <a href="../movies/200.htm">The Little Mermaid
+        &nbsp;&nbsp;(1989)
+        </a>
+            </div>
+        </li>
+        
+
+        <li class="thumbnail">
+            <a href="../movies/37.htm"><img border="0" src="../covers/000039.jpg" height="135" align="middle"></a>
+            <br>
+            <div class="thumbnail-text">
+                <a href="../movies/37.htm">Mamma Mia!
+        &nbsp;&nbsp;(2008)
+        </a>
+            </div>
+        </li>
+        
+
+        <li class="thumbnail">
+            <a href="../movies/440.htm"><img border="0" src="../covers/000449.jpg" height="135" align="middle"></a>
+            <br>
+            <div class="thumbnail-text">
+                <a href="../movies/440.htm">The Meaning of Life
+        &nbsp;&nbsp;(1983)
+        </a>
+            </div>
+        </li>
+        
+
+        <li class="thumbnail">
+            <a href="../movies/195.htm"><img border="0" src="../covers/000201.jpg" height="135" align="middle"></a>
+            <br>
+            <div class="thumbnail-text">
+                <a href="../movies/195.htm">Mulan
+        &nbsp;&nbsp;(1998)
+        </a>
+            </div>
+        </li>
+        
+
+        <li class="thumbnail">
+            <a href="../movies/197.htm"><img border="0" src="../covers/000203.jpg" height="135" align="middle"></a>
+            <br>
+            <div class="thumbnail-text">
+                <a href="../movies/197.htm">Pocahontas
+        &nbsp;&nbsp;(1995)
+        </a>
+            </div>
+        </li>
+        
+
+        <li class="thumbnail">
+            <a href="../movies/122.htm"><img border="0" src="../covers/000126.jpg" height="135" align="middle"></a>
+            <br>
+            <div class="thumbnail-text">
+                <a href="../movies/122.htm">Singin' in the Rain
+        &nbsp;&nbsp;(1952)
+        </a>
+            </div>
+        </li>
+        
+
+        <li class="thumbnail">
+            <a href="../movies/262.htm"><img border="0" src="../covers/000270.jpg" height="135" align="middle"></a>
+            <br>
+            <div class="thumbnail-text">
+                <a href="../movies/262.htm">South Park: Bigger, Longer & Uncut
+        &nbsp;&nbsp;(1999)
+        </a>
+            </div>
+        </li>
+        
+
+        </ul>
+    </div>
+    <div class="footer">
+        <p>Created with EMDB V2.73 (C) 2005-2017. No Rights Reserved ;-)</p>
+    </div>
+</body>
+</html>
