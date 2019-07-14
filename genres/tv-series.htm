@@ -1,421 +1,589 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-    <title>EMDB - Genres - TV-Series</title>
-    <link href="../emdb.css" rel="stylesheet" type="text/css" />
-</head>
-<body>
-    <div class="container">
-        <div>
-            <a href="../index.htm" class="button button-orange">EMDB &gt;</a>
-            <a href="../index.htm#genres" class="button button-orange">Genres &gt;</a>
-            <a href="tv-series.htm" class="button button-orange">TV-Series</a>
-        </div>
-        <img class="bar" src="../gif/bar_orange_black.jpg" alt="bar orange to black" />
-        <div class="header-orange">TV-Series</div>
-        <ul class="link-gray movie-list">
-            
-        <li class="thumbnail">
-            <a href="../movies/261.htm"><img border="0" src="../covers/000269.jpg" height="135" align="middle"></a>
-            <br>
-            <div class="thumbnail-text">
-                <a href="../movies/261.htm">The Adventures of Tintin - Complete Series
-        &nbsp;&nbsp;(1991)
-        </a>
-            </div>
-        </li>
-        
+<!-- Dark Comfort for EMDB by R3gi, Czech Republic, 2018.12.16 -->
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="../style.css" rel="stylesheet" type="text/css"/>
+		<title>EMDB - Genres - TV-Serie</title>
+		<noscript>
+			<style>
+				#search_form,
+				#settings,
+				.lazy {
+					display: none;
+				}
+			</style>
+		</noscript>
+	</head>
+	<body id="body" onload="manageResults('genre')" onpagehide="updateNavPage('genre')">
+		<header id="header">
+			<div class="inner">
+				<div class="title_box">
+					<span class="title">Sjanger - TV-Serie</span>
+				</div>
+			</div>
+			<nav class="navigation menu">
+				<div class="in">
+					<a href="../index.htm" class="search_hide_ib">HGF</a>
+					<a href="../index.htm#genres" class="search_hide_ib"> &gt;&nbsp;Sjangere</a>
+					<a href="tv-series.htm" class="search_hide_ib"> &gt;&nbsp;TV-Serie</a>
+					<button class="search_reset search_show_ib" onclick="reset()" type="reset">&lt;&nbsp;Back</button>
+					<form id="search_form" role="search" action="javascript:jets.search()">
+						<input id="searchInput" class="search" type="search" placeholder="Search&#8230;" aria-label="Search movies" autofocus><button class="search" type="submit">&#128270;</button>
+					</form>
+				</div>
+			</nav>
+		</header>
+		<main id="wrap">
+			<div class="category">
+				<ul class="category searchable">
+			<li class="thumbnail">
+				<a href="../movies/261.htm">
+					<noscript><img class="notlazy" src="../covers/000269.jpg" alt="Cover"/></noscript>
+					<img class="movie-image lazy" data-src="../covers/000269.jpg" alt="Cover"/>
+				</a>
+				<div class="thumbnail-text">
+					<a href="../movies/261.htm">The Adventures of Tintin - Komplett serie&nbsp;(1991)</a>
+				</div>
+			</li>
+			
 
-        <li class="thumbnail">
-            <a href="../movies/238.htm"><img border="0" src="../covers/000245.jpg" height="135" align="middle"></a>
-            <br>
-            <div class="thumbnail-text">
-                <a href="../movies/238.htm">Arrow - Season 1
-        &nbsp;&nbsp;(2012)
-        </a>
-            </div>
-        </li>
-        
+			<li class="thumbnail">
+				<a href="../movies/238.htm">
+					<noscript><img class="notlazy" src="../covers/000245.jpg" alt="Cover"/></noscript>
+					<img class="movie-image lazy" data-src="../covers/000245.jpg" alt="Cover"/>
+				</a>
+				<div class="thumbnail-text">
+					<a href="../movies/238.htm">Arrow - Sesong 1&nbsp;(2012)</a>
+				</div>
+			</li>
+			
 
-        <li class="thumbnail">
-            <a href="../movies/253.htm"><img border="0" src="../covers/000260.jpg" height="135" align="middle"></a>
-            <br>
-            <div class="thumbnail-text">
-                <a href="../movies/253.htm">Battlestar Galactica - Complete Series
-        &nbsp;&nbsp;(2004)
-        </a>
-            </div>
-        </li>
-        
+			<li class="thumbnail">
+				<a href="../movies/253.htm">
+					<noscript><img class="notlazy" src="../covers/000260.jpg" alt="Cover"/></noscript>
+					<img class="movie-image lazy" data-src="../covers/000260.jpg" alt="Cover"/>
+				</a>
+				<div class="thumbnail-text">
+					<a href="../movies/253.htm">Battlestar Galactica - Komplett serie&nbsp;(2004)</a>
+				</div>
+			</li>
+			
 
-        <li class="thumbnail">
-            <a href="../movies/237.htm"><img border="0" src="../covers/000244.jpg" height="135" align="middle"></a>
-            <br>
-            <div class="thumbnail-text">
-                <a href="../movies/237.htm">The Black Adder - Complete Series
-        &nbsp;&nbsp;(1982)
-        </a>
-            </div>
-        </li>
-        
+			<li class="thumbnail">
+				<a href="../movies/237.htm">
+					<noscript><img class="notlazy" src="../covers/000244.jpg" alt="Cover"/></noscript>
+					<img class="movie-image lazy" data-src="../covers/000244.jpg" alt="Cover"/>
+				</a>
+				<div class="thumbnail-text">
+					<a href="../movies/237.htm">The Black Adder - Komplett serie&nbsp;(1982)</a>
+				</div>
+			</li>
+			
 
-        <li class="thumbnail">
-            <a href="../movies/241.htm"><img border="0" src="../covers/000471.jpg" height="135" align="middle"></a>
-            <br>
-            <div class="thumbnail-text">
-                <a href="../movies/241.htm">Breaking Bad - Complete Series
-        &nbsp;&nbsp;(2008)
-        </a>
-            </div>
-        </li>
-        
+			<li class="thumbnail">
+				<a href="../movies/521.htm">
+					<noscript><img class="notlazy" src="../covers/000531.jpg" alt="Cover"/></noscript>
+					<img class="movie-image lazy" data-src="../covers/000531.jpg" alt="Cover"/>
+				</a>
+				<div class="thumbnail-text">
+					<a href="../movies/521.htm">Bleach - Sesong 01-07&nbsp;(2004)</a>
+				</div>
+			</li>
+			
 
-        <li class="thumbnail">
-            <a href="../movies/258.htm"><img border="0" src="../covers/000265.jpg" height="135" align="middle"></a>
-            <br>
-            <div class="thumbnail-text">
-                <a href="../movies/258.htm">Chuck - Season S01-S04
-        &nbsp;&nbsp;(2007)
-        </a>
-            </div>
-        </li>
-        
+			<li class="thumbnail">
+				<a href="../movies/520.htm">
+					<noscript><img class="notlazy" src="../covers/000530.jpg" alt="Cover"/></noscript>
+					<img class="movie-image lazy" data-src="../covers/000530.jpg" alt="Cover"/>
+				</a>
+				<div class="thumbnail-text">
+					<a href="../movies/520.htm">The Blue Planet - Komplett serie&nbsp;(2001)</a>
+				</div>
+			</li>
+			
 
-        <li class="thumbnail">
-            <a href="../movies/231.htm"><img border="0" src="../covers/000238.jpg" height="135" align="middle"></a>
-            <br>
-            <div class="thumbnail-text">
-                <a href="../movies/231.htm">Death Note - Complete Series
-        &nbsp;&nbsp;(2006)
-        </a>
-            </div>
-        </li>
-        
+			<li class="thumbnail">
+				<a href="../movies/241.htm">
+					<noscript><img class="notlazy" src="../covers/000248.jpg" alt="Cover"/></noscript>
+					<img class="movie-image lazy" data-src="../covers/000248.jpg" alt="Cover"/>
+				</a>
+				<div class="thumbnail-text">
+					<a href="../movies/241.htm">Breaking Bad - Komplett serie&nbsp;(2008)</a>
+				</div>
+			</li>
+			
 
-        <li class="thumbnail">
-            <a href="../movies/257.htm"><img border="0" src="../covers/000264.jpg" height="135" align="middle"></a>
-            <br>
-            <div class="thumbnail-text">
-                <a href="../movies/257.htm">Dexter - Season S01-S05
-        &nbsp;&nbsp;(2006)
-        </a>
-            </div>
-        </li>
-        
+			<li class="thumbnail">
+				<a href="../movies/518.htm">
+					<noscript><img class="notlazy" src="../covers/000528.jpg" alt="Cover"/></noscript>
+					<img class="movie-image lazy" data-src="../covers/000528.jpg" alt="Cover"/>
+				</a>
+				<div class="thumbnail-text">
+					<a href="../movies/518.htm">Call the Midwife - Sesong 07&nbsp;(2012)</a>
+				</div>
+			</li>
+			
 
-        <li class="thumbnail">
-            <a href="../movies/252.htm"><img border="0" src="../covers/000259.jpg" height="135" align="middle"></a>
-            <br>
-            <div class="thumbnail-text">
-                <a href="../movies/252.htm">Doctor Who - Season S01-S08
-        &nbsp;&nbsp;(2005)
-        </a>
-            </div>
-        </li>
-        
+			<li class="thumbnail">
+				<a href="../movies/486.htm">
+					<noscript><img class="notlazy" src="../covers/000496.jpg" alt="Cover"/></noscript>
+					<img class="movie-image lazy" data-src="../covers/000496.jpg" alt="Cover"/>
+				</a>
+				<div class="thumbnail-text">
+					<a href="../movies/486.htm">Children of Dune - Komplett serie&nbsp;(2003)</a>
+				</div>
+			</li>
+			
 
-        <li class="thumbnail">
-            <a href="../movies/243.htm"><img border="0" src="../covers/000250.jpg" height="135" align="middle"></a>
-            <br>
-            <div class="thumbnail-text">
-                <a href="../movies/243.htm">Downton Abbey - Complete Series
-        &nbsp;&nbsp;(2010)
-        </a>
-            </div>
-        </li>
-        
+			<li class="thumbnail">
+				<a href="../movies/258.htm">
+					<noscript><img class="notlazy" src="../covers/000265.jpg" alt="Cover"/></noscript>
+					<img class="movie-image lazy" data-src="../covers/000265.jpg" alt="Cover"/>
+				</a>
+				<div class="thumbnail-text">
+					<a href="../movies/258.htm">Chuck - Sesong 01-04&nbsp;(2007)</a>
+				</div>
+			</li>
+			
 
-        <li class="thumbnail">
-            <a href="../movies/460.htm"><img border="0" src="../covers/000470.jpg" height="135" align="middle"></a>
-            <br>
-            <div class="thumbnail-text">
-                <a href="../movies/460.htm">Firefly - Complete Series
-        &nbsp;&nbsp;(2002)
-        </a>
-            </div>
-        </li>
-        
+			<li class="thumbnail">
+				<a href="../movies/231.htm">
+					<noscript><img class="notlazy" src="../covers/000238.jpg" alt="Cover"/></noscript>
+					<img class="movie-image lazy" data-src="../covers/000238.jpg" alt="Cover"/>
+				</a>
+				<div class="thumbnail-text">
+					<a href="../movies/231.htm">Death Note - Komplett serie&nbsp;(2006)</a>
+				</div>
+			</li>
+			
 
-        <li class="thumbnail">
-            <a href="../movies/236.htm"><img border="0" src="../covers/000243.jpg" height="135" align="middle"></a>
-            <br>
-            <div class="thumbnail-text">
-                <a href="../movies/236.htm">Frozen Planet - Complete Series
-        &nbsp;&nbsp;(2011)
-        </a>
-            </div>
-        </li>
-        
+			<li class="thumbnail">
+				<a href="../movies/257.htm">
+					<noscript><img class="notlazy" src="../covers/000264.jpg" alt="Cover"/></noscript>
+					<img class="movie-image lazy" data-src="../covers/000264.jpg" alt="Cover"/>
+				</a>
+				<div class="thumbnail-text">
+					<a href="../movies/257.htm">Dexter - Sesong 01-05&nbsp;(2006)</a>
+				</div>
+			</li>
+			
 
-        <li class="thumbnail">
-            <a href="../movies/249.htm"><img border="0" src="../gif/no-image.png" height="135" align="middle"></a>
-            <br>
-            <div class="thumbnail-text">
-                <a href="../movies/249.htm">Game of Thrones - Complete Series
-        &nbsp;&nbsp;(2011)
-        </a>
-            </div>
-        </li>
-        
+			<li class="thumbnail">
+				<a href="../movies/252.htm">
+					<noscript><img class="notlazy" src="../covers/000259.jpg" alt="Cover"/></noscript>
+					<img class="movie-image lazy" data-src="../covers/000259.jpg" alt="Cover"/>
+				</a>
+				<div class="thumbnail-text">
+					<a href="../movies/252.htm">Doctor Who - Sesong 01-10&nbsp;(2005)</a>
+				</div>
+			</li>
+			
 
-        <li class="thumbnail">
-            <a href="../movies/451.htm"><img border="0" src="../covers/000460.jpg" height="135" align="middle"></a>
-            <br>
-            <div class="thumbnail-text">
-                <a href="../movies/451.htm">House - Season S01-S06
-        &nbsp;&nbsp;(2004)
-        </a>
-            </div>
-        </li>
-        
+			<li class="thumbnail">
+				<a href="../movies/243.htm">
+					<noscript><img class="notlazy" src="../covers/000250.jpg" alt="Cover"/></noscript>
+					<img class="movie-image lazy" data-src="../covers/000250.jpg" alt="Cover"/>
+				</a>
+				<div class="thumbnail-text">
+					<a href="../movies/243.htm">Downton Abbey - Komplett serie&nbsp;(2010)</a>
+				</div>
+			</li>
+			
 
-        <li class="thumbnail">
-            <a href="../movies/247.htm"><img border="0" src="../covers/000254.jpg" height="135" align="middle"></a>
-            <br>
-            <div class="thumbnail-text">
-                <a href="../movies/247.htm">House of Cards - Season 1
-        &nbsp;&nbsp;(2013)
-        </a>
-            </div>
-        </li>
-        
+			<li class="thumbnail">
+				<a href="../movies/485.htm">
+					<noscript><img class="notlazy" src="../covers/000495.jpg" alt="Cover"/></noscript>
+					<img class="movie-image lazy" data-src="../covers/000495.jpg" alt="Cover"/>
+				</a>
+				<div class="thumbnail-text">
+					<a href="../movies/485.htm">Dune - Komplett serie&nbsp;(2000)</a>
+				</div>
+			</li>
+			
 
-        <li class="thumbnail">
-            <a href="../movies/42.htm"><img border="0" src="../covers/000046.jpg" height="135" align="middle"></a>
-            <br>
-            <div class="thumbnail-text">
-                <a href="../movies/42.htm">Jane Eyre - Complete Series
-        &nbsp;&nbsp;(1983)
-        </a>
-            </div>
-        </li>
-        
+			<li class="thumbnail">
+				<a href="../movies/470.htm">
+					<noscript><img class="notlazy" src="../covers/000480.jpg" alt="Cover"/></noscript>
+					<img class="movie-image lazy" data-src="../covers/000480.jpg" alt="Cover"/>
+				</a>
+				<div class="thumbnail-text">
+					<a href="../movies/470.htm">Firefly - Komplett serie&nbsp;(2002)</a>
+				</div>
+			</li>
+			
 
-        <li class="thumbnail">
-            <a href="../movies/240.htm"><img border="0" src="../covers/000247.jpg" height="135" align="middle"></a>
-            <br>
-            <div class="thumbnail-text">
-                <a href="../movies/240.htm">The Knick - Season 1
-        &nbsp;&nbsp;(2014)
-        </a>
-            </div>
-        </li>
-        
+			<li class="thumbnail">
+				<a href="../movies/236.htm">
+					<noscript><img class="notlazy" src="../covers/000243.jpg" alt="Cover"/></noscript>
+					<img class="movie-image lazy" data-src="../covers/000243.jpg" alt="Cover"/>
+				</a>
+				<div class="thumbnail-text">
+					<a href="../movies/236.htm">Frozen Planet - Komplett serie&nbsp;(2011)</a>
+				</div>
+			</li>
+			
 
-        <li class="thumbnail">
-            <a href="../movies/235.htm"><img border="0" src="../covers/000242.jpg" height="135" align="middle"></a>
-            <br>
-            <div class="thumbnail-text">
-                <a href="../movies/235.htm">Life - Complete Series
-        &nbsp;&nbsp;(2009)
-        </a>
-            </div>
-        </li>
-        
+			<li class="thumbnail">
+				<a href="../movies/524.htm">
+					<noscript><img class="notlazy" src="../covers/000534.jpg" alt="Cover"/></noscript>
+					<img class="movie-image lazy" data-src="../covers/000534.jpg" alt="Cover"/>
+				</a>
+				<div class="thumbnail-text">
+					<a href="../movies/524.htm">Futurama - Sesong 01-04&nbsp;(1999)</a>
+				</div>
+			</li>
+			
 
-        <li class="thumbnail">
-            <a href="../movies/255.htm"><img border="0" src="../covers/000262.jpg" height="135" align="middle"></a>
-            <br>
-            <div class="thumbnail-text">
-                <a href="../movies/255.htm">Mad Men - Season 5/6
-        &nbsp;&nbsp;(2007)
-        </a>
-            </div>
-        </li>
-        
+			<li class="thumbnail">
+				<a href="../movies/249.htm">
+					<noscript><img class="notlazy" src="../covers/000256.jpg" alt="Cover"/></noscript>
+					<img class="movie-image lazy" data-src="../covers/000256.jpg" alt="Cover"/>
+				</a>
+				<div class="thumbnail-text">
+					<a href="../movies/249.htm">Game of Thrones - Sesong 01-07&nbsp;(2011)</a>
+				</div>
+			</li>
+			
 
-        <li class="thumbnail">
-            <a href="../movies/251.htm"><img border="0" src="../covers/000258.jpg" height="135" align="middle"></a>
-            <br>
-            <div class="thumbnail-text">
-                <a href="../movies/251.htm">The Originals - Season S01-S02
-        &nbsp;&nbsp;(2013)
-        </a>
-            </div>
-        </li>
-        
+			<li class="thumbnail">
+				<a href="../movies/451.htm">
+					<noscript><img class="notlazy" src="../covers/000463.jpg" alt="Cover"/></noscript>
+					<img class="movie-image lazy" data-src="../covers/000463.jpg" alt="Cover"/>
+				</a>
+				<div class="thumbnail-text">
+					<a href="../movies/451.htm">House - Sesong 01-06&nbsp;(2004)</a>
+				</div>
+			</li>
+			
 
-        <li class="thumbnail">
-            <a href="../movies/234.htm"><img border="0" src="../covers/000241.jpg" height="135" align="middle"></a>
-            <br>
-            <div class="thumbnail-text">
-                <a href="../movies/234.htm">Planet Earth - Complete Series
-        &nbsp;&nbsp;(2006)
-        </a>
-            </div>
-        </li>
-        
+			<li class="thumbnail">
+				<a href="../movies/247.htm">
+					<noscript><img class="notlazy" src="../covers/000254.jpg" alt="Cover"/></noscript>
+					<img class="movie-image lazy" data-src="../covers/000254.jpg" alt="Cover"/>
+				</a>
+				<div class="thumbnail-text">
+					<a href="../movies/247.htm">House of Cards - Sesong 1&nbsp;(2013)</a>
+				</div>
+			</li>
+			
 
-        <li class="thumbnail">
-            <a href="../movies/239.htm"><img border="0" src="../covers/000246.jpg" height="135" align="middle"></a>
-            <br>
-            <div class="thumbnail-text">
-                <a href="../movies/239.htm">Rome - Complete Series
-        &nbsp;&nbsp;(2005)
-        </a>
-            </div>
-        </li>
-        
+			<li class="thumbnail">
+				<a href="../movies/42.htm">
+					<noscript><img class="notlazy" src="../covers/000046.jpg" alt="Cover"/></noscript>
+					<img class="movie-image lazy" data-src="../covers/000046.jpg" alt="Cover"/>
+				</a>
+				<div class="thumbnail-text">
+					<a href="../movies/42.htm">Jane Eyre - Komplett serie&nbsp;(1983)</a>
+				</div>
+			</li>
+			
 
-        <li class="thumbnail">
-            <a href="../movies/256.htm"><img border="0" src="../covers/000263.jpg" height="135" align="middle"></a>
-            <br>
-            <div class="thumbnail-text">
-                <a href="../movies/256.htm">Sex and the City - Complete Series
-        &nbsp;&nbsp;(1998)
-        </a>
-            </div>
-        </li>
-        
+			<li class="thumbnail">
+				<a href="../movies/240.htm">
+					<noscript><img class="notlazy" src="../covers/000247.jpg" alt="Cover"/></noscript>
+					<img class="movie-image lazy" data-src="../covers/000247.jpg" alt="Cover"/>
+				</a>
+				<div class="thumbnail-text">
+					<a href="../movies/240.htm">The Knick - Sesong 1&nbsp;(2014)</a>
+				</div>
+			</li>
+			
 
-        <li class="thumbnail">
-            <a href="../movies/245.htm"><img border="0" src="../covers/000252.jpg" height="135" align="middle"></a>
-            <br>
-            <div class="thumbnail-text">
-                <a href="../movies/245.htm">Sherlock - Season S01-S03
-        &nbsp;&nbsp;(2010)
-        </a>
-            </div>
-        </li>
-        
+			<li class="thumbnail">
+				<a href="../movies/235.htm">
+					<noscript><img class="notlazy" src="../covers/000242.jpg" alt="Cover"/></noscript>
+					<img class="movie-image lazy" data-src="../covers/000242.jpg" alt="Cover"/>
+				</a>
+				<div class="thumbnail-text">
+					<a href="../movies/235.htm">Life - Komplett serie&nbsp;(2009)</a>
+				</div>
+			</li>
+			
 
-        <li class="thumbnail">
-            <a href="../movies/246.htm"><img border="0" src="../covers/000253.jpg" height="135" align="middle"></a>
-            <br>
-            <div class="thumbnail-text">
-                <a href="../movies/246.htm">Spartacus: War of the Damned - Complete Series
-        &nbsp;&nbsp;(2010)
-        </a>
-            </div>
-        </li>
-        
+			<li class="thumbnail">
+				<a href="../movies/255.htm">
+					<noscript><img class="notlazy" src="../covers/000262.jpg" alt="Cover"/></noscript>
+					<img class="movie-image lazy" data-src="../covers/000262.jpg" alt="Cover"/>
+				</a>
+				<div class="thumbnail-text">
+					<a href="../movies/255.htm">Mad Men - Sesong 5/6&nbsp;(2007)</a>
+				</div>
+			</li>
+			
 
-        <li class="thumbnail">
-            <a href="../movies/233.htm"><img border="0" src="../covers/000469.jpg" height="135" align="middle"></a>
-            <br>
-            <div class="thumbnail-text">
-                <a href="../movies/233.htm">Star Wars: The Clone Wars - Complete Series
-        &nbsp;&nbsp;(2008)
-        </a>
-            </div>
-        </li>
-        
+			<li class="thumbnail">
+				<a href="../movies/527.htm">
+					<noscript><img class="notlazy" src="../covers/000537.jpg" alt="Cover"/></noscript>
+					<img class="movie-image lazy" data-src="../covers/000537.jpg" alt="Cover"/>
+				</a>
+				<div class="thumbnail-text">
+					<a href="../movies/527.htm">Naruto: Shipp&#251;den - Sesong 01-02&nbsp;(2007)</a>
+				</div>
+			</li>
+			
 
-        <li class="thumbnail">
-            <a href="../movies/259.htm"><img border="0" src="../covers/000267.jpg" height="135" align="middle"></a>
-            <br>
-            <div class="thumbnail-text">
-                <a href="../movies/259.htm">Stargate SG-1 - Complete Series
-        &nbsp;&nbsp;(1997)
-        </a>
-            </div>
-        </li>
-        
+			<li class="thumbnail">
+				<a href="../movies/251.htm">
+					<noscript><img class="notlazy" src="../covers/000258.jpg" alt="Cover"/></noscript>
+					<img class="movie-image lazy" data-src="../covers/000258.jpg" alt="Cover"/>
+				</a>
+				<div class="thumbnail-text">
+					<a href="../movies/251.htm">The Originals - Sesong 01-02&nbsp;(2013)</a>
+				</div>
+			</li>
+			
 
-        <li class="thumbnail">
-            <a href="../movies/260.htm"><img border="0" src="../covers/000268.jpg" height="135" align="middle"></a>
-            <br>
-            <div class="thumbnail-text">
-                <a href="../movies/260.htm">Stargate: Atlantis - Complete Series
-        &nbsp;&nbsp;(2004)
-        </a>
-            </div>
-        </li>
-        
+			<li class="thumbnail">
+				<a href="../movies/234.htm">
+					<noscript><img class="notlazy" src="../covers/000241.jpg" alt="Cover"/></noscript>
+					<img class="movie-image lazy" data-src="../covers/000241.jpg" alt="Cover"/>
+				</a>
+				<div class="thumbnail-text">
+					<a href="../movies/234.htm">Planet Earth - Komplett serie&nbsp;(2006)</a>
+				</div>
+			</li>
+			
 
-        <li class="thumbnail">
-            <a href="../movies/41.htm"><img border="0" src="../covers/000044.jpg" height="135" align="middle"></a>
-            <br>
-            <div class="thumbnail-text">
-                <a href="../movies/41.htm">The Tenant of Wildfell Hall - Complete Series
-        &nbsp;&nbsp;(1996)
-        </a>
-            </div>
-        </li>
-        
+			<li class="thumbnail">
+				<a href="../movies/465.htm">
+					<noscript><img class="notlazy" src="../covers/000475.jpg" alt="Cover"/></noscript>
+					<img class="movie-image lazy" data-src="../covers/000475.jpg" alt="Cover"/>
+				</a>
+				<div class="thumbnail-text">
+					<a href="../movies/465.htm">Planet Earth II - Komplett serie&nbsp;(2016)</a>
+				</div>
+			</li>
+			
 
-        <li class="thumbnail">
-            <a href="../movies/248.htm"><img border="0" src="../covers/000255.jpg" height="135" align="middle"></a>
-            <br>
-            <div class="thumbnail-text">
-                <a href="../movies/248.htm">Torchwood - Season S01-S03
-        &nbsp;&nbsp;(2006)
-        </a>
-            </div>
-        </li>
-        
+			<li class="thumbnail">
+				<a href="../movies/239.htm">
+					<noscript><img class="notlazy" src="../covers/000246.jpg" alt="Cover"/></noscript>
+					<img class="movie-image lazy" data-src="../covers/000246.jpg" alt="Cover"/>
+				</a>
+				<div class="thumbnail-text">
+					<a href="../movies/239.htm">Rome - Komplett serie&nbsp;(2005)</a>
+				</div>
+			</li>
+			
 
-        <li class="thumbnail">
-            <a href="../movies/250.htm"><img border="0" src="../covers/000257.jpg" height="135" align="middle"></a>
-            <br>
-            <div class="thumbnail-text">
-                <a href="../movies/250.htm">The Vampire Diaries - Season S01-S07
-        &nbsp;&nbsp;(2009)
-        </a>
-            </div>
-        </li>
-        
+			<li class="thumbnail">
+				<a href="../movies/256.htm">
+					<noscript><img class="notlazy" src="../covers/000263.jpg" alt="Cover"/></noscript>
+					<img class="movie-image lazy" data-src="../covers/000263.jpg" alt="Cover"/>
+				</a>
+				<div class="thumbnail-text">
+					<a href="../movies/256.htm">Sex and the City - Komplett serie&nbsp;(1998)</a>
+				</div>
+			</li>
+			
 
-        <li class="thumbnail">
-            <a href="../movies/244.htm"><img border="0" src="../covers/000251.jpg" height="135" align="middle"></a>
-            <br>
-            <div class="thumbnail-text">
-                <a href="../movies/244.htm">The Walking Dead - Season 1
-        &nbsp;&nbsp;(2010)
-        </a>
-            </div>
-        </li>
-        
+			<li class="thumbnail">
+				<a href="../movies/245.htm">
+					<noscript><img class="notlazy" src="../covers/000252.jpg" alt="Cover"/></noscript>
+					<img class="movie-image lazy" data-src="../covers/000252.jpg" alt="Cover"/>
+				</a>
+				<div class="thumbnail-text">
+					<a href="../movies/245.htm">Sherlock - Sesong 01-03&nbsp;(2010)</a>
+				</div>
+			</li>
+			
 
-        <li class="thumbnail">
-            <a href="../movies/254.htm"><img border="0" src="../covers/000261.jpg" height="135" align="middle"></a>
-            <br>
-            <div class="thumbnail-text">
-                <a href="../movies/254.htm">Walking with Dinosaurs - Season 1
-        &nbsp;&nbsp;(1999)
-        </a>
-            </div>
-        </li>
-        
+			<li class="thumbnail">
+				<a href="../movies/529.htm">
+					<noscript><img class="notlazy" src="../covers/000539.jpg" alt="Cover"/></noscript>
+					<img class="movie-image lazy" data-src="../covers/000539.jpg" alt="Cover"/>
+				</a>
+				<div class="thumbnail-text">
+					<a href="../movies/529.htm">The Simpsons - Sesong 01-17&nbsp;(1989)</a>
+				</div>
+			</li>
+			
 
-        <li class="thumbnail">
-            <a href="../movies/242.htm"><img border="0" src="../covers/000249.jpg" height="135" align="middle"></a>
-            <br>
-            <div class="thumbnail-text">
-                <a href="../movies/242.htm">The Way We Live Now - Complete Series
-        &nbsp;&nbsp;(2001)
-        </a>
-            </div>
-        </li>
-        
+			<li class="thumbnail">
+				<a href="../movies/246.htm">
+					<noscript><img class="notlazy" src="../covers/000253.jpg" alt="Cover"/></noscript>
+					<img class="movie-image lazy" data-src="../covers/000253.jpg" alt="Cover"/>
+				</a>
+				<div class="thumbnail-text">
+					<a href="../movies/246.htm">Spartacus: War of the Damned - Komplett serie&nbsp;(2010)</a>
+				</div>
+			</li>
+			
 
-        <li class="thumbnail">
-            <a href="../movies/43.htm"><img border="0" src="../covers/000047.jpg" height="135" align="middle"></a>
-            <br>
-            <div class="thumbnail-text">
-                <a href="../movies/43.htm">Wuthering Heights - Complete Series
-        &nbsp;&nbsp;(1978)
-        </a>
-            </div>
-        </li>
-        
+			<li class="thumbnail">
+				<a href="../movies/233.htm">
+					<noscript><img class="notlazy" src="../covers/000240.jpg" alt="Cover"/></noscript>
+					<img class="movie-image lazy" data-src="../covers/000240.jpg" alt="Cover"/>
+				</a>
+				<div class="thumbnail-text">
+					<a href="../movies/233.htm">Star Wars: The Clone Wars - Sesong 01-06&nbsp;(2008)</a>
+				</div>
+			</li>
+			
 
-        <li class="thumbnail">
-            <a href="../movies/337.htm"><img border="0" src="../covers/000345.jpg" height="135" align="middle"></a>
-            <br>
-            <div class="thumbnail-text">
-                <a href="../movies/337.htm">XIII: The Conspiracy - Complete Series
-        &nbsp;&nbsp;(2008)
-        </a>
-            </div>
-        </li>
-        
+			<li class="thumbnail">
+				<a href="../movies/259.htm">
+					<noscript><img class="notlazy" src="../covers/000267.jpg" alt="Cover"/></noscript>
+					<img class="movie-image lazy" data-src="../covers/000267.jpg" alt="Cover"/>
+				</a>
+				<div class="thumbnail-text">
+					<a href="../movies/259.htm">Stargate SG-1 - Komplett serie&nbsp;(1997)</a>
+				</div>
+			</li>
+			
 
-        </ul>
-    </div>
-    <div class="footer">
-        <p>Created with EMDB V3.09 (C) 2005-2017. No Rights Reserved ;-)</p>
-    </div>
-</body>
+			<li class="thumbnail">
+				<a href="../movies/260.htm">
+					<noscript><img class="notlazy" src="../covers/000268.jpg" alt="Cover"/></noscript>
+					<img class="movie-image lazy" data-src="../covers/000268.jpg" alt="Cover"/>
+				</a>
+				<div class="thumbnail-text">
+					<a href="../movies/260.htm">Stargate: Atlantis - Komplett serie&nbsp;(2004)</a>
+				</div>
+			</li>
+			
+
+			<li class="thumbnail">
+				<a href="../movies/41.htm">
+					<noscript><img class="notlazy" src="../covers/000044.jpg" alt="Cover"/></noscript>
+					<img class="movie-image lazy" data-src="../covers/000044.jpg" alt="Cover"/>
+				</a>
+				<div class="thumbnail-text">
+					<a href="../movies/41.htm">The Tenant of Wildfell Hall - Komplett serie&nbsp;(1996)</a>
+				</div>
+			</li>
+			
+
+			<li class="thumbnail">
+				<a href="../movies/248.htm">
+					<noscript><img class="notlazy" src="../covers/000255.jpg" alt="Cover"/></noscript>
+					<img class="movie-image lazy" data-src="../covers/000255.jpg" alt="Cover"/>
+				</a>
+				<div class="thumbnail-text">
+					<a href="../movies/248.htm">Torchwood - Sesong 01-03&nbsp;(2006)</a>
+				</div>
+			</li>
+			
+
+			<li class="thumbnail">
+				<a href="../movies/250.htm">
+					<noscript><img class="notlazy" src="../covers/000257.jpg" alt="Cover"/></noscript>
+					<img class="movie-image lazy" data-src="../covers/000257.jpg" alt="Cover"/>
+				</a>
+				<div class="thumbnail-text">
+					<a href="../movies/250.htm">The Vampire Diaries - Sesong 01-07&nbsp;(2009)</a>
+				</div>
+			</li>
+			
+
+			<li class="thumbnail">
+				<a href="../movies/244.htm">
+					<noscript><img class="notlazy" src="../covers/000251.jpg" alt="Cover"/></noscript>
+					<img class="movie-image lazy" data-src="../covers/000251.jpg" alt="Cover"/>
+				</a>
+				<div class="thumbnail-text">
+					<a href="../movies/244.htm">The Walking Dead - Sesong 1&nbsp;(2010)</a>
+				</div>
+			</li>
+			
+
+			<li class="thumbnail">
+				<a href="../movies/254.htm">
+					<noscript><img class="notlazy" src="../covers/000261.jpg" alt="Cover"/></noscript>
+					<img class="movie-image lazy" data-src="../covers/000261.jpg" alt="Cover"/>
+				</a>
+				<div class="thumbnail-text">
+					<a href="../movies/254.htm">Walking with Dinosaurs - Sesong 1&nbsp;(1999)</a>
+				</div>
+			</li>
+			
+
+			<li class="thumbnail">
+				<a href="../movies/242.htm">
+					<noscript><img class="notlazy" src="../covers/000249.jpg" alt="Cover"/></noscript>
+					<img class="movie-image lazy" data-src="../covers/000249.jpg" alt="Cover"/>
+				</a>
+				<div class="thumbnail-text">
+					<a href="../movies/242.htm">The Way We Live Now - Komplett serie&nbsp;(2001)</a>
+				</div>
+			</li>
+			
+
+			<li class="thumbnail">
+				<a href="../movies/515.htm">
+					<noscript><img class="notlazy" src="../covers/000525.jpg" alt="Cover"/></noscript>
+					<img class="movie-image lazy" data-src="../covers/000525.jpg" alt="Cover"/>
+				</a>
+				<div class="thumbnail-text">
+					<a href="../movies/515.htm">The World at War - Komplett serie&nbsp;(1973)</a>
+				</div>
+			</li>
+			
+
+			<li class="thumbnail">
+				<a href="../movies/43.htm">
+					<noscript><img class="notlazy" src="../covers/000047.jpg" alt="Cover"/></noscript>
+					<img class="movie-image lazy" data-src="../covers/000047.jpg" alt="Cover"/>
+				</a>
+				<div class="thumbnail-text">
+					<a href="../movies/43.htm">Wuthering Heights - Komplett serie&nbsp;(1978)</a>
+				</div>
+			</li>
+			
+
+			<li class="thumbnail">
+				<a href="../movies/513.htm">
+					<noscript><img class="notlazy" src="../covers/000523.jpg" alt="Cover"/></noscript>
+					<img class="movie-image lazy" data-src="../covers/000523.jpg" alt="Cover"/>
+				</a>
+				<div class="thumbnail-text">
+					<a href="../movies/513.htm">The X-Files - Sesong 01-09&nbsp;(1993)</a>
+				</div>
+			</li>
+			
+
+			<li class="thumbnail">
+				<a href="../movies/337.htm">
+					<noscript><img class="notlazy" src="../covers/000345.jpg" alt="Cover"/></noscript>
+					<img class="movie-image lazy" data-src="../covers/000345.jpg" alt="Cover"/>
+				</a>
+				<div class="thumbnail-text">
+					<a href="../movies/337.htm">XIII: The Conspiracy - Komplett serie&nbsp;(2008)</a>
+				</div>
+			</li>
+			
+</ul>
+			</div>
+			<div id="no_results" class="results_control">No results found</div>
+			<div id="search_reset" class="results_control search_show_b"><button class="search" onclick="reset()" type="reset">Clear search results</button></div>
+		</main>
+		<footer id="footer">
+			<div class="inner">
+				<nav id="tb">
+					<a class="to_top" href="#header">&#708;</a>
+					<a class="to_bottom" href="#footer">&#709;</a>
+				</nav>
+				<div>Laget av EMDB V3.45 (C) 2005-2014. Ingen enerett ;-)</div>
+				<div>Dark&nbsp;Comfort for EMDB by&nbsp;<a href="mailto:regiprogi@gmail.com">R3gi</a></div>
+				<div id="link_db"><a href="http://www.emdb.eu" target="_blank">EMDB</a></div>
+				<div id="settings">
+					<input id="s_remeber_results" onclick="settings('r','')" type="checkbox" checked title="If enabled, search results will be restored when navigating between pages"><label for="s_remeber_results">Remeber search results</label>
+					<input id="s_sticky_menu" onclick="settings('','s')" type="checkbox" checked title="If enabled, navigation menu will be sticked"><label for="s_sticky_menu">Sticky menu</label>
+				</div>
+			</div>
+			<script src="../gif/lazy_load.js"></script>
+			<script>
+				var myLazyLoad = new LazyLoad({
+					elements_selector: ".lazy",
+					load_delay: 200
+				});
+			</script>
+			<script src="../gif/jets.min.js"></script>
+			<script src="../gif/main.js" defer></script>
+			<script src="../gif/jquery-3.3.1.min.js" defer></script>
+			<script src="../gif/sticky_menu.js" defer></script>
+		</footer>
+	</body>
 </html>
